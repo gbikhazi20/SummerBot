@@ -68,7 +68,7 @@ class Chat:
         self.console.print(f"\nChat history saved to {filename}", style="green")
     
     def format_qa(self, question, answer):
-        return f"""### Question\n{question}\n### Answer\n{answer}"""
+        return f"""### Answer\n{answer}"""
     
     def start(self):
         self.console.print("\nAsk SummerBot questions about your child's health!", style="bold blue")
