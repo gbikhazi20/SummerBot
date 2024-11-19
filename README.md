@@ -14,6 +14,6 @@ I think this has the potential to be much better given more compute and a bigger
 If you want to try this out yourself, clone this repo and run the following commands:
 
     1. pip install -r requirements.txt
-    2. python scrapy.py
+    2. python scrape.py
     3. python finetune.py
     4. python chat.py
